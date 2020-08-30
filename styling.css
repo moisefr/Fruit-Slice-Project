@@ -44,12 +44,19 @@ html{
 }
 
 #wrong{
+    margin: 150px 0px 0px 200px;
+    height: 400px;
+    width: 575px;
+    background-color: orange;
+    color: black;
+    padding: 30px;
     position: absolute;
-    left: 250px;
-    background-color: #de401a;
-    color: white;
-    padding: 11px;
+    z-index: 1;
+/*    align-content: center;*/
+    align-self: center;
+/*    align-items: center;*/
     display: none;
+    text-align: center;
 }
 
 #fruitcontainer{
@@ -190,4 +197,10 @@ html{
 .fruit {
     display: none;
     position: absolute;
+}
+
+#endgamge, #endgamge2 {
+    color: Black;
+    font-size: 50px;
+    font-weight: 100;
 }
